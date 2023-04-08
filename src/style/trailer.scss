@@ -1,0 +1,12 @@
+#video{
+  width: 80%;
+  margin-left: 10%;
+  .video{
+    display: flex;
+    overflow-x: auto;
+    margin: 30px 10px;
+    &--card{
+      margin: 40px 20px;
+    }
+  }
+}

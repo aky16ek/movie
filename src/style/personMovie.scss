@@ -1,0 +1,11 @@
+#actorMovie{
+  .actorMovie{
+    display: flex;
+    overflow-x: auto;
+    &--card{
+      margin: 20px 20px 20px 0;
+      text-align: center;
+
+    }
+  }
+}

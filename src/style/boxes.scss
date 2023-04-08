@@ -1,0 +1,60 @@
+#box {
+  .box {
+    box-shadow: none;
+    button {
+      background: none;
+      color: white;
+      font-size: 23px;
+      margin-left: 10px;
+    }
+    &--modal {
+      background: white;
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      left: 0;
+      bottom: -50px;
+      z-index: 30;
+      input {
+        position: relative;
+        width: 100%;
+        height: 44px;
+        border: none;
+        outline: none;
+        padding-left: 150px;
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-size: 20px;
+        color: #acacac;
+      }
+      input::marker {
+        display: none;
+      }
+      input::placeholder {
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-size: 20px;
+        color: #acacac;
+      }
+
+      button {
+        background: none;
+        font-size: 20px;
+        color: black;
+        font-weight: 700;
+        font-family: Roboto, sans-serif;
+        position: absolute;
+        right: 300px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+      }
+      h1 {
+        top: 0;
+        position: absolute;
+        right: 250px;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,36 @@
+#actorDetails{
+  padding: 50px 0;
+  background: #fff;
+  .actorDetails{
+    margin-left: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    &--info{
+      width: 65%;
+      h1 {
+        font-size: 30px;
+        font-weight: 800;
+        margin: 20px 0;
+      }
+      h5{
+        font-size: 15px;
+        margin: 15px 0;
+      }
+      h2{
+        font-size: 20px;
+        margin: 20px 0;
+      }
+      h3{
+        margin: 20px 0;
+        flex-direction: column;
+        width: 29%;
+      }
+    p{
+      font-size: 18px;
+      font-weight: 600;
+    }
+    }
+  }
+}

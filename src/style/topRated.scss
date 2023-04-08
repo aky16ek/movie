@@ -1,0 +1,48 @@
+#topRated{
+  padding: 80px 0;
+  background: rgb(175,0,255);
+  background: linear-gradient(90deg, rgba(175,0,255,1) 10%, rgba(9,198,233,1) 30%, rgba(9,198,233,1) 66%, rgba(176,12,240,1) 90%);
+  h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+  }
+  .topRated{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 9rem;
+    flex-wrap: wrap;
+    .popular--card{
+      width: 20%;
+      border: 2px solid white;
+      padding: 20px 0;
+      border-radius: 20px;
+      -webkit-box-shadow: 1px 2px 100px 40px rgba(232, 17, 55, 0.69);
+      -moz-box-shadow: 1px 2px 100px 40px rgba(232, 17, 55, 0.69);
+      box-shadow: 1px 2px 100px 40px rgba(232, 17, 55, 0.69);
+      h2{
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+  .topRated--page{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    button{
+      width: 50px;
+      height: 50px;
+      margin: 50px 30px;
+border-radius: 50%;
+      background: rgb(150,152,149);
+      background: linear-gradient(180deg, rgba(150,152,149,1) 0%, rgba(50,52,49,1) 61%, rgba(69,71,68,1) 100%);
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+    }
+
+  }
+}

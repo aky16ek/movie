@@ -1,0 +1,20 @@
+#Footer{
+  background: rgb(34,118,195);
+  background: linear-gradient(0deg, rgba(34,118,195,1) 0%, rgba(253,45,199,1) 100%);
+  padding: 30px 0;
+  .footer{
+    text-align: center;
+    h1 {
+      font-size: 52px;
+      background: -webkit-linear-gradient(#39ff14, #fd2dc7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    //h1{
+    //  font-size: 40px;
+    //  font-weight: 600;
+    //  color: white;
+    //
+    //}
+  }
+}

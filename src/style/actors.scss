@@ -1,0 +1,31 @@
+#actors {
+  //color: white;
+  text-align: center;
+  padding: 30px 0;
+  h1{
+    padding: 20px 0;
+    font-weight: revert;
+    font-size: 40px;
+  }
+  .actors {
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-left: 5%;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    width: 90%;
+
+    &--card {
+      text-align: center;
+      margin: 20px;
+
+    }
+
+  }
+  .actors::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+}
